@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /* css reset */
 *{
     padding : 0;
@@ -9,7 +9,7 @@
 
    /*default styles for whole page*/
 body {
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     border-color: #101010;
     background-color:rgb(222, 53, 2);
 }
@@ -68,12 +68,12 @@ nav a {
 }
 
 nav a:hover {
-    color: #101010;
+    color: #fffb00;
     transition: all .3s ease-in-out;
 }
 /* Default styling for Headings */
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Niconne", Georgia, 'Times New Roman', Times, serif;
+    font-family: "Roboto serif", Arial, Helvetica, sans-serif;
     line-height: 1.1;
     font-weight: 700;
 }
@@ -95,7 +95,7 @@ h4 {
 }
  /* Paragraphs */
  p {
-    font-family: "Roboto Serif", Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 1.5;
     font-size: 1.125rem;
@@ -108,12 +108,12 @@ h4 {
     padding-bottom: 5rem;
 }
 .title h1, .title h2 {
-    color:rgb(0, 51, 0);
+    color:rgb(255, 255, 255);
 }
 .header-image {
     object-fit: cover;
      width:100%;
-     max-height: 500px;
+     max-height: 800px;
      padding-top: 3rem;
      padding-bottom: 0.5rem;
      padding-left: 0.5rem;
@@ -130,7 +130,7 @@ h4 {
 
 
 
-.bruno {
+.bass {
     padding-top: 3rem;
     padding-bottom: 0.5rem;
     padding-left: 0.5rem;
@@ -147,7 +147,7 @@ h4 {
 
 }
 .introduction {
-    color:rgb(0, 51, 0);
+    color:rgb(255, 255, 255);
     font-weight:700;
     font-style:italic;
 }
@@ -158,9 +158,26 @@ h4 {
     
     }
 .body-image {
-    object-fit: cover;
+    object-fit:contain;
     width:100%;
     max-height: 500px;
+    padding-right: 100%;
+ }
+ .image-container{
+    margin: auto;
+    width: 500px;
+    height: fit-content;
+    padding-left: 80%;
+ }
+ .head-container{
+    margin: auto;
+    width: 500px;
+    height: fit-content;
+    padding-right: 100%;
+ }
+ .container h1{
+    
+    color:rgb(255, 255, 255);
  }
 /* hyperlinks */
 a {
@@ -171,7 +188,7 @@ a {
  }
 
 a:hover {
-    color:rgb(120, 255, 120);
+    color:rgb(255, 251, 0);
 }
 
 a:visited {
@@ -194,10 +211,8 @@ ul li {
 }
 footer{
     background-color:ghostwhite;
-    color:rgb(0, 51, 0);
+    color:rgb(0, 0, 0);
     text-align: center;
     padding: 6rem 0 3rem 0;
 }
-footer {
-   
-}
+
